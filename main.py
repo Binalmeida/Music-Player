@@ -151,10 +151,10 @@ tk.Label(janela, textvariable=artista, font=("lexend", 10, "bold"), bg="#D8AD70"
 frame_botoes = tk.Frame(janela, bg="#E8C698")
 frame_botoes.pack(pady=10)
 
-icone_play = ImageTk.PhotoImage(Image.open("icones/play.png").resize((25, 25)))
-icone_pause = ImageTk.PhotoImage(Image.open("icones/pause.png").resize((25, 25)))
-icone_avancar = ImageTk.PhotoImage(Image.open("icones/avancar.png").resize((18, 18)))
-icone_voltar = ImageTk.PhotoImage(Image.open("icones/voltar.png").resize((18, 18)))
+icone_play = ImageTk.PhotoImage(Image.open("play.png").resize((25, 25)))
+icone_pause = ImageTk.PhotoImage(Image.open("pause.png").resize((25, 25)))
+icone_avancar = ImageTk.PhotoImage(Image.open("avancar.png").resize((18, 18)))
+icone_voltar = ImageTk.PhotoImage(Image.open("voltar.png").resize((18, 18)))
 
 frame_botoes.place(x=95, y=340) 
 
@@ -172,4 +172,5 @@ botao_avancar.grid(row=0, column=2, padx=10)
 janela.after(100, tocar_musica)
 
 janela.mainloop()
+
 
