@@ -14,27 +14,27 @@ playlist = [
     {
         "titulo": "Headlock",
         "artista": "Imogen Heap",
-        "arquivo": "musicas/headlock.mp3",
-        "capa": "capas/headlock.jpg"
+        "arquivo": "headlock.mp3",
+        "capa": "headlock.jpg"
     },
     {
         "titulo": "Bout It",
         "artista": "JMSN",
-        "arquivo": "musicas/bout_it.mp3",
-        "capa": "capas/bout_it.jpg"
+        "arquivo": "bout_it.mp3",
+        "capa": "bout_it.jpg"
 
     },
         {
             "titulo": "Lover Girl",
             "artista": "Laufey",
-            "arquivo": "musicas/lover_girl.mp3",
-            "capa": "capas/lover_girl.jpg"
+            "arquivo": "lover_girl.mp3",
+            "capa": "lover_girl.jpg"
         },
         {
             "titulo": "Ruthlessness",
             "artista": "Epic, The Musical",
-            "arquivo": "musicas/ruthlessness.mp3",
-            "capa": "capas/ruthlessness.jpg"
+            "arquivo": "ruthlessness.mp3",
+            "capa": "ruthlessness.jpg"
         }
     ]
 
@@ -172,3 +172,4 @@ botao_avancar.grid(row=0, column=2, padx=10)
 janela.after(100, tocar_musica)
 
 janela.mainloop()
+
