@@ -138,7 +138,7 @@ capa_label.pack(pady=10)
 
 janela.after(500, atualizar_barra)
 
-bg_img = Image.open("icones/fundo1.png").resize((265, 60))
+bg_img = Image.open("fundo1.png").resize((265, 60))
 bg_img_tk = ImageTk.PhotoImage(bg_img)
 bg_label = tk.Label(janela, image=bg_img_tk, bg="#E8C698", bd=0)
 bg_label.place(x=28, y=230)
@@ -172,5 +172,6 @@ botao_avancar.grid(row=0, column=2, padx=10)
 janela.after(100, tocar_musica)
 
 janela.mainloop()
+
 
 
