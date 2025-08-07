@@ -1,0 +1,4 @@
+pygame
+tkinter
+os
+mutagen
